@@ -1,0 +1,13 @@
+
+pessoa = {}
+pessoa['nome'] = (str(input("Digite um valor para a chave (nome): ")))
+pessoa['Idade'] = (int(input("Digite um valor para a chave (Idade): ")))
+pessoa['Sexo'] = (str(input("Digite um valor para a chave (Sexo): ")))  
+pessoa['Profissão'] = (str(input("Informe sua profissão: ")))
+
+print("Adicionando uma nova chave e um valor ao dicionario..\n")
+pessoa['Cidade'] = (str(input("Informe o nome da sua Cidade: ")))
+print(pessoa)
+
+
+
