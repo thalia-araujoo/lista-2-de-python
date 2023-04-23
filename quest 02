@@ -1,0 +1,24 @@
+x =  (str(input("Digite um nome: ")),
+     str(input("Digite mais um nome: ")),
+     str(input("Digite o ultimo nome: ")))
+print(x)
+
+print("Alteração da Tupla\n")
+#transformando a tupla em uma lista
+y = list(x)
+#interagindo com o usario
+p = int(input("Qual posição quer alterar?: "))
+if p == 1:
+    p = 0
+elif p == 2:
+    p = 1
+if p == 3:
+    p = 2
+y[p] = (input("Digite um novo nome para essa posição: "))
+#transformando a lista em uma tupla novamente
+x = tuple(y)
+print(x)
+
+
+
+
