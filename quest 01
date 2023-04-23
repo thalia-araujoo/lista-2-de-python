@@ -1,0 +1,11 @@
+numeros = list()
+
+for i in range(0,6):
+    num = int(input("Digite os números: "))
+    numeros.append(num)
+print(numeros)
+
+#colocando mais um numero na lista,usando o append
+n = int(input("Digite mais um número: "))
+numeros.append(n)
+print(numeros)
