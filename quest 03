@@ -1,0 +1,7 @@
+#criando dicionario
+pessoas = {'nome': (input("Digite o valor da chave (Nome): "))}
+pessoas['Sexo'] = (str(input("Digite um valor para a chave (Sexo): ")))
+pessoas['idade'] = input("Digite o valor para a chave (Idade): ")
+print(pessoas)
+
+
