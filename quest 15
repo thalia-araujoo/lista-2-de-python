@@ -1,0 +1,18 @@
+#crie um grafo vazio
+
+grafo = {}
+
+# pede para o usuario digitar os vertices e as arestas de grafo
+
+num_vertices = int(input("Digite o número de vértices do grafo: "))
+for i in range(num_vertices):
+    vertice = input(f"Digite o nome do vértice {i+1}: ")
+    grafo[vertice] = []
+    
+num_arestas = int(input("Digite o número de arestas do grafo: "))
+for i in range(num_arestas):
+    a, b = input(f"Digite os vértices que formam a aresta {i+1}: ").split()
+    grafo[a].append(b)
+    grafo[b].append(a)
+grafo.pop('a', 'c')
+print(grafo)
