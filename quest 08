@@ -1,0 +1,9 @@
+
+pessoas = {}
+pessoas['nome'] = (str(input("Digite um valor para a chave (nome): ")))
+pessoas['Idade'] = (int(input("Digite um valor para a chave (Idade): ")))
+pessoas['Sexo'] = (str(input("Digite um valor para a chave (Sexo): ")))  
+
+print("O valor da chave idade é {}".format(pessoas['Idade']))
+
+
