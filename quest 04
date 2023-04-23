@@ -1,0 +1,12 @@
+numeros = set() #declarando um conjunto vazio. tem q ter esse set() 
+for i in range(0,6):
+    n = int(input("Digite um número: "))
+    numeros.add(n) # o append n funciona aq, entt usa-se a função .add()
+print("numeros digitados {}".format(numeros))
+
+#para remover posso usar a função discard()
+print("Números depois que removo um..")
+numeros.discard(int(input("Qual número quer remover?: ")))
+print(numeros)
+
+
