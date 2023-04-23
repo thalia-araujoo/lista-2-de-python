@@ -1,0 +1,19 @@
+numeros = (int(input("Digite os números: ")),
+          int(input("Digite os números: ")),
+          int(input("Digite os números: ")),
+          int(input("Digite os números: ")),
+          int(input("Digite os números: ")))
+print(numeros)
+print("O primeiro elemento da tupla é {}".format(numeros[0]))
+
+#outra forma é criando uma lista e depois transformando em tupla
+#numero = []
+#for i in range(0,5):
+#   n = int(input("Digite os números: "))
+#    numero.append(n)
+#numeros = tuple(numero)
+#print(numeros)
+#print("O primeiro elemento da tupla é {}".format(numeros[0]))
+
+
+
