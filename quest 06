@@ -1,0 +1,5 @@
+numeros = []
+for i in range(0,11):
+    n = int(input("Digite os números: "))
+    numeros.append(n)
+print(numeros)
