@@ -1,0 +1,18 @@
+#criando dicionario
+pessoa = {}
+pessoa['nome'] = (input("Digite o Seu nome: "))
+pessoa['Sexo'] = (str(input("Digite um valor para a chave (Sexo): ")))
+pessoa['idade'] = input("Digite o valor para a chave (Idade): ")
+pessoa['Endereço'] = str(input("Digite o valor prara a chave (Endereço):"))
+pessoa['Profissão'] = str(input("Digite o valor prara a chave (Profissão):"))
+pessoa['Estado Civil'] = str(input("Digite o valor prara a chave (Estado civil):"))
+
+if __name__ == '__main__':
+    print(pessoa)
+ #posso colocar diretamente o nome da chae, mas preferir perguntar ao usuario
+    key = input("Qual chave quer saber se existe?: ")
+ 
+    if key in pessoa:
+        print( key, "Existe no dicionario")
+    else:
+        print(key, "Essa chave não existe no dicionario")
