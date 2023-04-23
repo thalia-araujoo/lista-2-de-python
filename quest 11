@@ -1,0 +1,7 @@
+numeros = list()
+
+for i in range(0,6):
+    num = int(input("Digite os números: "))
+    numeros.append(num)
+
+print(numeros[::2]) #fatiamento de lista me retorna so os indices pares
