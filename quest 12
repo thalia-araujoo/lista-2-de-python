@@ -1,0 +1,10 @@
+pessoas = (str(input("Digite um nome: ")),
+     str(input("Digite mais um nome: ")),
+     str(input("Digite o ultimo nome: ")))
+print(pessoas)
+print("verificação\n")
+if "Maria" in pessoas:
+    print("Maria esta na tupla, posição {}".format(pessoas.index("Maria")))
+else:
+    print("Maria não está na tupla.")
+ 
