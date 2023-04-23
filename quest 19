@@ -1,0 +1,6 @@
+numeros = set() #declarando um conjunto vazio. tem q ter esse set() 
+for i in range(0,6):
+    n = int(input("Digite um número: "))
+    numeros.add(n) # o append n funciona aq, entt usa-se a função .add()
+print(numeros)
+print("Quantidade de elementos dentro do conjunto {}".format(len(numeros)))
