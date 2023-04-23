@@ -1,0 +1,5 @@
+
+nomes =  (str(input("Digite um nome: ")),
+     str(input("Digite mais um nome: ")),
+     str(input("Digite o ultimo nome: ")))
+print("Esse nome aparece {} vezes".format(nomes.count('Maria')))
