@@ -1,0 +1,9 @@
+numeros = set() #declarando um conjunto vazio. tem q ter esse set() 
+for i in range(0,6):
+    n = int(input("Digite um número: "))
+    numeros.add(n) # o append n funciona aq, entt usa-se a função .add()
+print("numeros digitados {}".format(numeros))
+
+#verificando se o numero 3 esta dentro do conjunto
+print('3' in numeros)
+
