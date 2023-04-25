@@ -1,0 +1,27 @@
+#crie um grafo vazio
+
+grafo = {}
+
+# pede para o usuario digitar os vertices e as arestas de grafo
+
+num_vertices = int(input("Digite o número de vértices do grafo: "))
+for i in range(num_vertices):
+    vertice = input(f"Digite o nome do vértice {i+1}: ")
+    grafo[vertice] = []
+    
+num_arestas = int(input("Digite o número de arestas do grafo: "))
+for i in range(num_arestas):
+    a, b = input(f"Digite os vértices que formam a aresta {i+1}: ").split()
+    grafo[a].append(b)
+    grafo[b].append(a)
+
+print(grafo)
+
+a, b = input("Qual aresta deseja remover?: ")
+if a in grafo and b in grafo:
+    grafo[a].remover(b)
+    grafo[b].aremover(a)
+    print('Aresta removida do grafo!')
+    print(grafo)
+else:
+    print('A aresta não foi encontrada no grafo!')
